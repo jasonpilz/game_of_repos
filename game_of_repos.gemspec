@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.email        = 'jasonpilz@gmail.com'
   s.files        = Dir["**/*"].select { |f| File.file? f }
   s.homepage     = 'https://github.com/jasonpilz/game_of_repos'
+  s.executables  << 'game_of_repos'
 end
